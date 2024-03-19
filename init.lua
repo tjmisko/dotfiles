@@ -37,3 +37,5 @@ vim.opt.scrolloff = 4
 vim.opt.sidescrolloff = 0
 vim.opt.updatetime = 500
 
+vim.opt.directory = "C:\\Users\\Tmisko\\temp" --set the swapfile directory
+

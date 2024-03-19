@@ -21,5 +21,5 @@ function DoVisualLines()
     handle:close()
 end
 
-vim.keymap.set("n", "<C-S-d>", DoBuffer)
-vim.keymap.set("v", "<C-S-d>", DoVisualLines)
+vim.keymap.set("n", "<leader>do", DoBuffer)
+vim.keymap.set("v", "<leader>do", DoVisualLines)

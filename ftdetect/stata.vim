@@ -1,5 +1,5 @@
 " Stata do and ado files
-au BufNewFile,BufRead *.do     set filetype=stata
+au BufNewFile,BufRead *.do     set filetype=stata cms='// %s'
 au BufNewFile,BufRead *.ado    set filetype=stata
 " *.doi is listed because some people use the extension to indicate
 " files run from within other files (e.g. with the include command).
